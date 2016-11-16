@@ -1,0 +1,16 @@
+import java.util.Date;
+
+public class DateDemo {
+
+	public static void main(String args[]) {
+
+		Date date = new Date();
+
+		System.out.println(date.toString());
+		
+		//formatting test wiht printf
+
+		System.out.printf("%s %tB",date);	
+
+	}
+}
